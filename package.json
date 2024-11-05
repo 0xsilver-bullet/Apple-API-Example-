@@ -1,0 +1,22 @@
+{
+  "name": "apple-subscription-verifier-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@apple/app-store-server-library": "^1.4.0",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

@@ -1,0 +1,3 @@
+*.p8
+node_modules/
+dist/
